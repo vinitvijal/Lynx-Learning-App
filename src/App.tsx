@@ -1,4 +1,5 @@
 import './App.css'
+import HeroHomeCard from './components/HeroHomeCard.js'
 
 export function App() {
 
@@ -8,22 +9,24 @@ export function App() {
       flexDirection: 'column',
       display: 'flex',
       alignItems: 'center',
-      backgroundColor: '#E3EEB2',
+      backgroundColor: '#332D56',
     }}>
       <view 
         className='safe-area-view'
         style={{
-          border: '2px solid black',
           width: '100%',
           display: 'flex',
         }}>
         <text style={{
-          fontSize: '32px',
+          fontSize: '36px',
           paddingLeft: '10px',
+          paddingTop: '15px',
           fontWeight: 'bold',
-          color: '#4E6688',
+          color: '#E3EEB2',
         }}>Welcome Home</text>
       </view>
+
+      <HeroHomeCard />
     </view>
   )
 }
