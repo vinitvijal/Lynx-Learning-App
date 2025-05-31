@@ -10,7 +10,9 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.109.0"
+    "@lynx-js/react": "^0.109.0",
+    "lucide-react": "^0.511.0",
+    "react-native-vector-icons": "^10.2.0"
   },
   "devDependencies": {
     "@lynx-js/qrcode-rsbuild-plugin": "^0.3.6",
@@ -19,6 +21,7 @@
     "@lynx-js/types": "^3.3.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@types/react": "^18.3.22",
+    "@types/react-native-vector-icons": "^6.4.18",
     "jsdom": "^26.1.0",
     "prettier": "^3.5.3",
     "typescript": "~5.8.3",
