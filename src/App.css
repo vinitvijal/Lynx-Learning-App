@@ -20,6 +20,11 @@
   transform: rotate(15.25deg);
 }
 
+.safe-area-view {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right)
+    env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 .App {
   position: relative;
   min-height: 100vh;

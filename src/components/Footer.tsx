@@ -15,7 +15,8 @@ function Footer() {
       style={{
         position: 'fixed',
         bottom: '0',
-        height: '13%',
+        zIndex: '1000',
+        height: '12%',
         width: '100%',
         display: 'flex',
         justifyContent: 'center',
@@ -44,7 +45,7 @@ function Footer() {
           }}
           bindtap={() => {
             'background only';
-            navigate('/');
+            navigate('/search');
           }}
         >
           <image
@@ -87,7 +88,7 @@ function Footer() {
             justifyContent: 'center',
           }}
           bindtap={() => {
-            navigate('/home');
+            navigate('/');
           }}
         >
           <image
