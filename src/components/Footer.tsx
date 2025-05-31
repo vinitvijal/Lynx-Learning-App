@@ -70,7 +70,7 @@ function Footer() {
             alignItems: 'center',
             gap: '10px',
             borderRadius: '50%',
-            backgroundColor: 'lightgray',
+            backgroundColor: '#444',
             height: '90px',
             width: '90px',
             position: 'absolute',
@@ -81,8 +81,12 @@ function Footer() {
           <image
             src={house}
             style={{
-              width: '30px',
-              height: '30px',
+              width: '35px',
+              height: '35px',
+              backgroundColor: 'white',
+              padding: '16px',
+              boxSizing: 'content-box',
+                borderRadius: '50%',
             }}
           />
         </view>
