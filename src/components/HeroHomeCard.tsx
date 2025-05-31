@@ -1,3 +1,5 @@
+import idCard from '../assets/icons/id-card.png'
+
 function HeroHomeCard() {
   return (
     <view
@@ -101,9 +103,29 @@ function HeroHomeCard() {
               style={{
                 height: '80%',
                 width: '45%',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'space-evenly',
+                alignItems: 'center',
                 backgroundColor: '#332D56',
+                borderRadius: '15px',
               }}
-            ></view>
+            >   
+                <image
+                    src={idCard}
+                    style={{
+                        width: '30px',
+                        height: '30px',
+                    }}
+                />
+                <text style={{
+                    color: 'white',
+                    fontSize: '12px',
+                    fontWeight: 'bold',
+                }}>
+                    View ID
+                </text>
+            </view>
 
             <view
               style={{
