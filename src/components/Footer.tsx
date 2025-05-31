@@ -3,9 +3,14 @@ import bookcheck from '../assets/icons/book-check.png';
 import booktext from '../assets/icons/book-text.png';
 import house from '../assets/icons/house.png';
 import logs from '../assets/icons/logs.png';
+import { useNavigate } from 'react-router';
+
 
 function Footer() {
-  return (
+    const navigate = useNavigate();
+
+
+    return (
     <view
       style={{
         position: 'fixed',
@@ -36,6 +41,10 @@ function Footer() {
             flexDirection: 'column',
             alignItems: 'center',
             gap: '10px',
+          }}
+          bindtap={() => {
+            'background only';
+            navigate('/');
           }}
         >
           <image
@@ -76,6 +85,9 @@ function Footer() {
             position: 'absolute',
             top: '-35px',
             justifyContent: 'center',
+          }}
+          bindtap={() => {
+            navigate('/home');
           }}
         >
           <image
